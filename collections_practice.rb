@@ -20,4 +20,10 @@ def sort_array_char_count
   end 
 end 
 
-def swap_elements 
+def swap_elements(array)
+  elementOne = array[1] 
+  elementTwo = array[2]
+  array[1] = elementTwo
+  array[2] = elementOne
+  array 
+end 
