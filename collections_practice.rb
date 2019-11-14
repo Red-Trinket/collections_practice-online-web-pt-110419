@@ -14,4 +14,6 @@ def sort_array_char_count
       0 
     elsif a.length > b.length 
       1 
-    else
+    elsif a.length < b.length 
+      -1 
+    end 
