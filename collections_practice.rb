@@ -17,3 +17,7 @@ def sort_array_char_count
     elsif a.length < b.length 
       -1 
     end 
+  end 
+end 
+
+def swap_elements 
